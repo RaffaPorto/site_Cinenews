@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header h1,
+section h2,
+.logos h3,
+#inscrição h3 {
+    font-family: 'Vina Sans', sans-serif;
+}
+
+header {
+    padding: 20px 0;
+    background-color: rgb(158, 95, 218);
+    font-size: 36px;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 24px;
+}
+
+header nav li a {
+    color: black;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    }
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.articles {
+    display: flex;
+    justify-content: space-between;
+}
+
+.articles article img {
+    height: 350px;
+    width: 90%; 
+    margin-left: 32px; 
+    margin-right: 32px;
+}
+
+.articles article {
+    width: 50%;
+}
+
+.articles article time {
+    margin-left: 32px;
+}
+
+section h2 {
+    padding: 16px;
+    font-size: 32px;
+    color: rgb(97, 18, 97);
+}
+
+.articles article p,
+.articles article h3,
+.articles article a {
+    margin: 16px;
+    font-size: 16px;
+}
+
+.articles article a {
+    background-color: aqua;
+    color: black;
+}
+
+.articles article h3 {
+    font-size: 24px;
+}
+
+.articles article h3,
+.articles article p,
+.entrada a {
+    font-family: 'Nova Square', sans-serif;
+}
+
+.articles article p {
+    height: 16px;
+    display: inline-block;
+    font-size: 19px;
+}
+
+#noticias {
+    background-color: rgb(241, 191, 173);
+}
+
+.articles article {
+    color: rgb(97, 18, 97);   
+}
+
+.rede-sociais img {
+    height: 60px;
+    margin-left: 16px;
+}
+
+.rede-sociais li {
+    display: inline;
+}
+
+.rede-sociais li a {
+    text-decoration: none;
+}
+
+
+#inscrição .container {
+    display: block;
+}
+
+#inscrição {
+    background-color: rgb(192, 192, 192);
+}
+
+#inscrição h3 {
+    color: rgb(97, 18, 97);
+}
+
+.entrada {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px; 
+    padding: 8px;
+}
+
+form button {
+    width: 100px;
+}
+
+.logos h3 {
+    font-size: 24px;
+    color: rgb(97, 18, 97);
+}
+
+.logos {
+    margin-left: 700px;
+}
+
+.entrada h3 {
+    margin: 8px;
+}
+
+form button {
+    background-color: rgb(97, 18, 97);
+    color: aqua;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color:  rgb(156, 84, 156);
+}
+
+.entrada a {
+    text-decoration: none;
+    margin-bottom: 16px;
+}
+
+footer p {
+    background-color:  rgb(158, 95, 218);
+    color: black;
+    padding: 16px 0;
+}
+
+
+
+
